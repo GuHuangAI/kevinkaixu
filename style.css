@@ -40,7 +40,7 @@ ul{margin:0;padding:0;list-style:none}
 /* ---------- layout ---------- */
 .wrap{width:var(--max);max-width:var(--max-wide);margin:0 auto;padding:0 28px}
 section{padding:52px 0}
-section+section{border-top:1px solid var(--rule)}
+section+section{border-top:3px solid var(--rule)}
 
 /* ---------- nav ---------- */
 .nav{
@@ -94,6 +94,8 @@ section+section{border-top:1px solid var(--rule)}
 .h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-bottom:26px}
 .sub{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin:26px 0 8px}
 .sub:first-child{margin-top:0}
+body.group-page .h2,
+body.group-page .sub{font-weight:700}
 
 /* ---------- project cards ---------- */
 .proj{display:grid;grid-template-columns:212px 1fr;gap:26px;padding:24px 0;align-items:start}
@@ -133,6 +135,30 @@ section+section{border-top:1px solid var(--rule)}
 .lk a{font-size:12.5px;padding:2px 9px;border:1px solid var(--rule);border-radius:4px;color:var(--ink-2)}
 .lk a:hover{border-color:var(--ink-3);color:var(--ink);text-decoration:none}
 .more{margin-top:28px;font-size:15px;color:var(--ink-2)}
+.full-publications-section{padding-top:32px;padding-bottom:32px}
+.full-publications-button{
+  display:inline-block;
+  padding:11px 18px;
+  background:var(--ink);
+  color:#fff;
+  font-size:14px;
+  font-weight:700;
+  letter-spacing:.1em;
+  line-height:1.2;
+  text-transform:uppercase;
+  border-radius:5px;
+  transition:background-color .2s ease,transform .2s ease;
+}
+.full-publications-button:hover{
+  background:#000;
+  color:#fff;
+  text-decoration:none;
+  transform:translateY(-1px);
+}
+.strong-section-title{
+  color:var(--ink);
+  font-weight:700;
+}
 
 /* ---------- plain row lists ---------- */
 .rows li{padding:9px 0;border-top:1px solid var(--rule);font-size:15.5px;line-height:1.62}
@@ -174,6 +200,17 @@ section+section{border-top:1px solid var(--rule)}
 .pub .a{margin-top:3px;font-size:14px;color:var(--ink-2);line-height:1.55}
 .pub .a .me{font-weight:600;color:var(--ink)}
 .pub .v{margin-top:4px;font-size:14px;font-style:italic;color:var(--ink-2)}
+.pub-badges{margin-top:7px;display:flex;flex-wrap:wrap;gap:7px}
+.pub-badge{
+  display:inline-block;
+  padding:2px 8px;
+  border-radius:4px;
+  background:#fdf3d8;
+  color:#7a5a00;
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.04em;
+}
 .pub .q{margin-top:8px;font-size:14px;line-height:1.65;color:var(--ink-2);
         border-left:2px solid var(--rule);padding-left:12px}
 
@@ -223,6 +260,5 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   a{color:#000}
   .pub,.proj{break-inside:avoid}
 }
-
 
 
