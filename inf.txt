@@ -1,0 +1,24 @@
+==================
+本文格式：
+姓名：研究方向，学校
+==================
+
+Prospective
+Yanyang Han: 具身智能，南开大学
+Xiaoyang Zhao: 工厂世界模型，同济大学
+
+master
+Ziqiao Zhou: 物理智能，武汉大学
+Xin Zhang: 3D视觉，南京邮电大学
+Xiaoxiao Feng: 物理仿真，中国科学技术大学
+Tao Wang: 世界模型，中国科学技术大学
+
+PhD
+Hao Wang: 3D视觉，中国科学技术大学
+Yuxing Huang: 世界模型，国防科技大学
+Zhiyuan Yu: 从人类视频中学习具身操作、灵巧手，武汉大学
+Xuan Lv: 世界模型，国防科技大学
+
+faculty
+Yong Han: 工业具身智能和团队项目管理，南京师范大学
+Zihan Li: 场景搭建和三维仿真，南京航空航天大学
